@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let markMass=95;
+        // let markHeight=1.88;
+        // let johnMass=85;
+        // let johnHeight=1.76;
+        // let markBMI=markMass/markHeight**2
+        // let johnBMI=johnMass/johnHeight**2
+        // let markHigherBMI=markBMI>johnBMI
+        // console.log(markHigherBMI)
+    //     let weekdays={
+    //         1:'Monday',
+    //         2:'tuesday',
+    //         3:"Wednesday",
+    //         4:'thursday',
+    //         5:'friday',
+    //         6:'saturday',
+    //         7:'sunday'
+    //     }
+    //     for(let i=1;i<8;i++){
+    //     console.log(weekdays[i])
+    // }
+
+    // let a=44, b=23, c=71;
+    // let dolphinScore 
+    // let x=65, y=54, z=49;
+    // let koalasScore 
+    // if(dolphinScore>koalasScore&&dolphinScore>=100){
+    //     console.log("dolphinScore is winner");
+    // }
+    // else if(dolphinScore<koalasScore&&koalasScore>=100){
+    //     console.log("koalasScore is winner");
+    // }
+    // else if(dolphinScore===koalasScore&&koalasScore>=100){
+    //     console.log("Draw");
+    // }
+    // else{
+    //     console.log("no one wins the trophy")
+    // }
+
+    // let bil=430;
+    // let val = (bil<=300&&bil>=50)?(`Bill=${bil} tip=${(bil*15)/100} total value is=${((bil*15)/100)+bil}`):(`Bill=${bil}  tip=${bil*0.2}  total value is=${((bil*20)/100)+bil}`);
+    // console.log(val)
+    // -----------------------------
+//    let calcAverage= (d,e,f)=>(d+e+f)/3
+//   dolphinScore = calcAverage(a,b,c)
+//   koalasScore = calcAverage(x,y,z)
+//     function checkWinner(){
+//         if (dolphinScore>=2*koalasScore) {
+//             console.log("Dolphin winner")
+//         } else if (koalasScore>=2*dolphinScore){
+//             console.log("Koalas winner")
+//         }
+//         else{
+//             console.log("no one wins")
+//         }
+//     }
+    ////////////////////////////
+    // let bill;
+    // let tip;
+    // let calcTip=money=> tip=  (money>=50 && money<=300)?( money*.15 ) : ( money*.2)
+    // const bills=[125,555,44]
+    // const tips=[]
+    // let i=0,j=0;
+    // while(i<bills.length){
+    //     tips.push(calcTip(bills[i]))
+    //     i++;
+    // }
+    // const total=[]
+    // while(j<bills.length){
+    //     total.push(calcTip(bills[j])+bills[j])
+    //     j++
+    // }
+        /////////////////////
+        /*  let cal={
+              name:"Jonas",
+              age:46,
+              job:"Teacher",
+              driverlicence:true,
+              licence:function(driverlicence){
+                return  (this.driverlicence)?(`a`):(`not a` )
+              }
+              ,
+              summary :function (){
+          return (`${this.name} is a ${this.age} year old .He has ${this.licence()} driving licence`)
+        }
+          } 
+
+        console.log(cal.summary())*/
+///////////////////////////
+        /*  let calJohn={
+              firstname:"John",
+              lastname:"Smith",
+              mass:92,
+              height:1.92,
+              bmi:function(){
+                  return (this.mass)/(this.height)**2
+              }
+          }
+          let calMark={
+              firstname:"Mark",
+              lastname:"Miller",
+              mass:78,
+              height:1.69,
+              bmi:function(){
+                  return (this.mass)/(this.height)**2
+              }
+          }
+          let result= (calJohn.bmi>calMark.bmi)?(calJohn):(calMark);
+          let result2= (calJohn.bmi>calMark.bmi)?(calMark):(calJohn);
+          console.log(`${result.firstname}'s BMI(${result.bmi()}) is higher than ${result2.firstname}'s (${result2.bmi()})!`)
+          */
+////////////////////////////
+        //  
+      
+//         let bills=[22,295,176,440,37,105,10,110,86,52];
+//           let tips=[];
+         
+//           let calcTip=function(money){ 
+//           return (money>=50 && money<=300)?( money*0.15 ) : ( money*0.2);
+//         }
+//         let i=0
+//           while(i<bills.lenth){
+//                 let tip=calcIip(bills[i]);
+//                 tips.push(tip) ;
+//                 i++;
+//           }
+//           console.log(tips)
+// calcTip()
+let bills=[22,295,176,440,37,105,10,110,86,52];
+          let tips=[];
+         
+          let calcTip=function(money){ 
+          return (money>=50 && money<=300)?( money*0.15 ) : ( money*0.2);
+        }
+        let i=0
+          while(i<bills.length){
+                let tip=calcIip(bills[i]);
+                tips.push(tip) ;
+                i++;
+          }
+          console.log(tips)  ;
+
+   </script>
+</body>
+</html>
